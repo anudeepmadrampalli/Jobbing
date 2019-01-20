@@ -1,0 +1,61 @@
+.ictopnavbar {
+    width: 100%;
+    height: 10%;
+    /*nav bar color change css*/
+    animation: colorchange 50s;
+    /* animation-name followed by duration in seconds*/
+    /* you could also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 50s;
+    /* Chrome and Safari */
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@keyframes colorchange {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: red;
+    }
+}
+
+@-webkit-keyframes colorchange
+
+/* Safari and Chrome - necessary duplicate */
+    {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: red;
+    }
+}
